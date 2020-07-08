@@ -1,0 +1,78 @@
+body {
+    background: #000;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive, sans-serif;
+    font-size: 18px;
+    color: #ffa500;
+}
+
+#thumbnail {
+    height: 20rem;
+}
+
+.custom-div {
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.about-me-img img {
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+
+/* centering  */
+
+.class {
+    margin: auto;
+    text-align: center;
+}
+
+.class {
+    margin: 0 auto;
+}
+
+
+/* or  */
+
+.class {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.class {
+    background-color: #123456;
+}
+
+.class {
+    background: url('url/to/jpeg');
+}
+
+.class {
+    text-shadow: 2px 2px #123456;
+}
+
+.class:hover {
+    color: #123456;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
