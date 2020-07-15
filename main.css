@@ -26,19 +26,21 @@ h1 {
 
 /* centering  */
 
-.class {
+
+/* .class {
     margin: auto;
     text-align: center;
 }
 
 .class {
     margin: 0 auto;
-}
+} */
 
 
 /* or  */
 
-.class {
+
+/* .class {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -58,7 +60,7 @@ h1 {
 
 .class:hover {
     color: #123456;
-}
+} */
 
 .grid-container {
     display: grid;
